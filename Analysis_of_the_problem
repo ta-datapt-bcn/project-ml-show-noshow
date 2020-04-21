@@ -1,0 +1,26 @@
+❑ Definición y objetivo del proyecto:
+
+    * Del dataset show_no_show debemos elegir y entrenar el modelo apropiado de ML para predecir cuales de los pacientes se van a presentar a su cita médica.
+
+❑ Frame the problem
+    
+    * 
+
+❑ Define performance metric
+
+    * Podemos utilizar un Supervised binary classification {show, no-show} model
+
+❑ Look for approaches to similar problems
+
+    * Problemas similares pueden ser en testeo de calidad {Go, No-go}; clasifiación de películas {Sonido, Mudo}, {Color, B/N}
+
+❑ List assumptions made so far
+
+    * Si un paciente no recibe un SMS es mas proble que sea "no-show" por que se olvidará de la cita
+    * Si un paciente sufre de Hipertensión o Diabetes es mas proble que sea "show"
+    * Si un paciente tiene un Beca Familiar concedida es mas proble que sea "show"
+    * Si un paciente tiene que ir acompañado a la cita es mas proble que sea "show"
+
+Data Retrieval:
+❑ Find data and document where it has been obtained from
+   Kaggle: https://www.kaggle.com/joniarroba/noshowappointments
