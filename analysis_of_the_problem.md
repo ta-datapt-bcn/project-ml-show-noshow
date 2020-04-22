@@ -19,8 +19,7 @@ Los comandos suponen una comprensión básica de las bibliotecas Pandas, Matplot
 
 
 ## Análisis del problema <a name="g2"></a>
-
-**Índice**   
+ 
 1. [Definición del problema](#id1)
 2. [Definición del objetivo](#id2)
 3. [Contextualización](#id3)
@@ -85,27 +84,28 @@ Problemas similares pueden ser en testeo de calidad {Go, No-go}; clasifiación d
     * **Recuperación de datos**. 
     * **Análisis exploratorio**. Tamaño y tipo de los datos, estudio de cada variable (NaN, outliers, distribuciones), primeras visualizaciones para estudiar posibles correlaciones e identificar posibles transformaciones necesarias. Seleccionar el atributo objetivo.
     
-* **Semana 2. **
+* **Semana 2.**
     - **EDA**.
     - **Manipulación de los datos**.
     
-* **Semana 3. **
+* **Semana 3.**
     - **Selección del modelo**.
     
-* **Semana 4. **
+* **Semana 4.**
     - **Reajuste del modelo**.
     - **Presentación**
 
 ## Resultados <a name="g4"></a>
 
-* show_no_show.csv - con todos los datos extraídos de Kaggle.
-* main.ipynb - con todo el código construido para el proyecto.
-* figures - todas las visualizaciones que respaldan el proyecto.
+* *show_no_show.csv* - con todos los datos extraídos de Kaggle.
+* *main.ipynb* - con todo el código construido para el proyecto.
+* *figures* - todas las visualizaciones que respaldan el proyecto.
 
 ## Conclusiones <a name="g5"></a>
 
+
+
 ## Entregas <a name="g6"></a>
 
-
-* no_show_show.csv - Conjunto de datos limpio que contiene toda la información del paciente, incluido si asistieron o no a sus citas médicas.
+* *no_show_show.csv* - Conjunto de datos limpio que contiene toda la información del paciente, incluido si asistieron o no a sus citas médicas.
 * Modelo ML capaz de predecir si habrá un Show-Up / No-Show basado en las características del paciente.
