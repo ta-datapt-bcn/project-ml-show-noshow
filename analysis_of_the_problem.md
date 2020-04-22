@@ -11,7 +11,7 @@
 
 ## Descipción del proyecto <a name="g1"></a>
 
-El objetivo de este proyecto es  practicar nuestras habilidades de análisis de datos y probar nuestro conocimiento sobre aprendizaje automático mediante el análisis de un gran conjunto de datos construyendo un modelo capaz de predecir el resultado de una variable dependiente.
+El objetivo de este proyecto es  practicar nuestras habilidades de análisis de datos y probar nuestro conocimiento sobre aprendizaje automático mediante el análisis de un gran conjunto de datos construyendo un modelo capaz de predecir el resultado de una *variable dependiente*.
 
 Dada la naturaleza del conjunto de datos utilizado, este análisis tiene como objetivo describir algunas posibles razones para que el paciente no se presente en las citas programadas.
 
@@ -71,11 +71,12 @@ Problemas similares pueden ser en testeo de calidad {Go, No-go}; clasifiación d
 
 ### Asunciones previas  <a name="id6"></a>
 
-* Si un paciente recibe un SMS es mas proble que sea "show" por que no se olvidará de la cita.
-* Si un paciente sufre de Hipertensión o Diabetes es mas proble que sea "show".
-* Si un paciente tiene un Beca Familiar concedida es mas proble que sea "show".
-* Si un paciente tiene que ir acompañado a la cita es mas proble que sea "show".
-* El género, el día programado, el día de la cita, la edad, el vecindario, la beca y los SMS recibidos parecen ser las características más importantes a la hora de predecir el resultado de No_Show.
+* Si un paciente recibe un SMS es más proble que sea "show" por que no se olvidará de la cita.
+* Si un paciente sufre de Hipertensión o Diabetes es más proble que sea "show".
+* Si un paciente tiene un Beca Familiar concedida es más proble que sea "show".
+* Si un paciente tiene que ir acompañado a la cita es más proble que sea "show".
+* El tiempo entre el día programación y el día de la cita, a menor tiempo más probable que sea "show".
+* El género, el día programado, el día de la cita, la edad, el vecindario, el handicap, la beca y los SMS recibidos parecen ser las características más importantes a la hora de predecir el resultado de No_Show.
 
 ## Workflow <a name="g3"></a>
 
