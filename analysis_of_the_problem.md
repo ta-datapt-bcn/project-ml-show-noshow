@@ -59,7 +59,7 @@ Aproximadamente un 20% de la población del dataset no acuden a la visita que ha
 * **Hipertension** *(int)*. 1 o 0 según si son hipertensos o no.
 * **Diabetes** *(int)*. 1 o 0 según si son diabéticos o no.
 * **Alcoholism** *(object)*: según consumo de alcohol.
-* **Handcap** *(int)* : ¿desventaja?
+* **Handcap** *(int)* : Discapacidad.
 * **SMS_received** *(int)*: 1 o más mensajes enviados al paciente.
 * **No-show** *(object)*: Esta será nuestra variable a predecir. Puede adquirir valores de verdadero o falso.
 
