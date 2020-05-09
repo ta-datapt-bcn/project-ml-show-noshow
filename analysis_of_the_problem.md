@@ -103,7 +103,17 @@ Problemas similares pueden ser en testeo de calidad {Go, No-go}; clasifiación d
 * *figures* - todas las visualizaciones que respaldan el proyecto.
 
 ## Conclusiones <a name="g5"></a>
+- Después de probar diferentes modelos, los que parecen predecir con mejores resultados son SVC y RandomForrest. El modelo elegido fue el de RF, ya que requiere menos potencia de cálculo
 
+- La métrica elegida para medir el rendimiento del modelo fue RECALL, ya que permite calcular cuántos de los pacientes realmente se presentaran y que nuestro modelo y etiqueta como Positivos (True Positive) - que significa cuántos de los pacientes que realmente aparecieran fueron predichos como tales
+
+- Esta métrica es particularmente útil ya que hay un alto costo asociado con el falso negativo - cuando el modelo predice que un paciente no va a su cita pero termina apareciendo
+
+- La aplicación de One Hot Enconding podría aumentar la precisión del modelo, pero necesita una carga computacional significativamente mayor para tratar todas las características (por ejemplo, la edad y los barrios)
+
+- Como recomendación futura, el equipo sugiere que técnicas de Deep Learning también podrían ser aplicadas para lograr mejores predicciones de la show-rate
+
+- Las limitaciones técnicas no permitieron experimentar, pero se se espera que podría dar lugar a mejores resultados
 
 
 ## Entregas <a name="g6"></a>
