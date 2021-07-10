@@ -1,3 +1,5 @@
+Kamila, Miqui & Xabi
+
 # Module 3 - Project 2 (ML) - Show | No Show.
 
 ### Context
